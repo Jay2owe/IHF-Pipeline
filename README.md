@@ -5,6 +5,7 @@ The pipeline leverages ImageJ and Python to streamline the process from image ac
 <h2 id="save-confocal">
   <a href="#save-confocal">-	Save all of your Confocal Images in the correct format (AnimalID_Hemisphere_BrainRegion)</a>
 </h2>
+
 -	Save all of your Confocal Images in the correct format (AnimalID_Hemisphere_BrainRegion)
 -	Keep your .lif in a separate folder on it’s own
 -	Install all the required ImageJ Plugins (3D Object Counter, ImageJ 3D Suite, 3D Viewer, 3D Script)
