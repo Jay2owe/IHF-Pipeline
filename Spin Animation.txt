@@ -1,0 +1,34 @@
+At frame 0 rotate by -67.5 degrees vertically 
+At frame 0 rotate by 0 degrees around (0,0,1)
+
+From frame 0 to frame 180 rotate by -45 degrees around (1,0,0) ease-out
+From frame 180 to frame 360 rotate by 45 degrees around (1,0,0) ease-in-out
+From frame 360 to frame 540 rotate by -45 degrees around (1,0,0) ease-in-out 
+From frame 540 to frame 720 rotate by 45 degrees around (1,0,0) ease-in-out 
+From frame 720 to frame 900 rotate by -45 degrees around (1,0,0) ease-in-out 
+From frame 900 to frame 1080 rotate by 45 degrees around (1,0,0) ease-in-out 
+From frame 1080 to frame 1260 rotate by -45 degrees around (1,0,0) ease-in-out 
+From frame 1260 to frame 1440 rotate by 45 degrees around (1,0,0) ease-in-out 
+From frame 1440 to frame 1620 rotate by -45 degrees around (1,0,0) ease-in-out 
+From frame 1620 to frame 1800 rotate by 45 degrees around (1,0,0) ease-in-out 
+From frame 1800 to frame 1980 rotate by -45 degrees around (1,0,0) ease-in-out 
+From frame 1980 to frame 2160 rotate by 45 degrees around (1,0,0) ease-in-out 
+From frame 2160 to frame 2340 rotate by -45 degrees around (1,0,0) ease-in-out 
+From frame 2340 to frame 2520 rotate by 45 degrees around (1,0,0) ease-in-out 
+
+From frame 0 to frame 90 rotate by 22.5 degrees around (0,0,1) ease-out 
+From frame 90 to frame 270 rotate by -45 degrees around (0,0,1) ease-in-out 
+From frame 270 to frame 450 rotate by 45 degrees around (0,0,1) ease-in-out 
+From frame 450 to frame 630 rotate by -45 degrees around (0,0,1) ease-in-out 
+From frame 630 to frame 810 rotate by 45 degrees around (0,0,1) ease-in-out 
+From frame 810 to frame 990 rotate by -45 degrees around (0,0,1) ease-in-out 
+From frame 990 to frame 1170 rotate by 45 degrees around (0,0,1) ease-in-out
+From frame 1170 to frame 1350 rotate by -45 degrees around (0,0,1) ease-in-out 
+From frame 1350 to frame 1530 rotate by 45 degrees around (0,0,1) ease-in-out 
+From frame 1530 to frame 1710 rotate by -45 degrees around (0,0,1) ease-in-out 
+From frame 1710 to frame 1890 rotate by 45 degrees around (0,0,1) ease-in-out 
+From frame 1890 to frame 2070 rotate by -45 degrees around (0,0,1) ease-in-out 
+From frame 2070 to frame 2250 rotate by 45 degrees around (0,0,1) ease-in-out 
+From frame 2250 to frame 2430 rotate by -45 degrees around (0,0,1) ease-in-out 
+
+From frame 0 to frame 2520 rotate by 2520 degrees horizontally 
