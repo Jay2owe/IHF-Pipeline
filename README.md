@@ -3,16 +3,15 @@
 The pipeline leverages ImageJ and Python to streamline the process from image acquisition to data analysis for immunofluorescence. The pipeline facilitates the semi-automated production of high-quality figures and 3D renders, as well as extraction of 3D and spatial data, which can also be analysed using the Jupyter notebook also part of the pipeline.
 ## Quick Step-by-step breakdown
 <a href="#saving-confocal-images">-	Save all of your Confocal Images in the correct format (AnimalID_Hemisphere_BrainRegion)</a>
--	Save all of your Confocal Images in the correct format (AnimalID_Hemisphere_BrainRegion)
--	Keep your .lif in a separate folder on it’s own
--	Install all the required ImageJ Plugins (3D Object Counter, ImageJ 3D Suite, 3D Viewer, 3D Script)
--	Use the ‘Create .bin Folder’ ImageJ Macro. Make sure you have an idea of the threshold and filters needed for each channel
--	Use the ‘Draw and save ROIs’ ImageJ Macro to save all the ROIs for each image
--	Use the ‘Split and Merge Images’, ‘Total Integrated Density’, and ‘3D Object Analysis’ ImageJ Macros to produce the ‘Images’ folder, ‘Image Analysis’, and ‘Data Analysis’ folder and excel file, respectively
--	Feed the ‘Images’ folder into the ‘Image Tiler’ Python Scripts, and the ‘Data Analysis’ folder into the ‘Save CSVs’ VBScript to produce the tiled images in PowerPoint, and CSVs for the Jupyter Notebook, respectively
--	Create new Experiment objects and/or Batch objects using the new CSVs and execute the subsequent code blocks to produce figures and analyse data
--	Using the 3D Object stacks within the ‘Image Analysis’ folder, or any other image stacks, create 3D renders and animations using 3D Viewer, 3D Script, and the provided example codes, to enhance visualisation and add evidence to data analysis
-## [Saving Confocal Images](#save-confocal)
+<a href="#folder-set-up">-	Keep your .lif in a separate folder on it’s own</a>
+<a href="#installing-plugins">-	Install all the required ImageJ Plugins (3D Object Counter, ImageJ 3D Suite, 3D Viewer, 3D Script)</a>
+<a href="#create-.bin-folder">-	Use the ‘Create .bin Folder’ ImageJ Macro. Make sure you have an idea of the threshold and filters needed for each channel</a>
+<a href="#draw-rois">-	Use the ‘Draw and save ROIs’ ImageJ Macro to save all the ROIs for each image</a>
+<a href="#split-and-merge-channels">-	Use the ‘Split and Merge Images’, ‘Total Integrated Density’, and ‘3D Object Analysis’ ImageJ Macros to produce the ‘Images’ folder, ‘Image Analysis’, and ‘Data Analysis’ folder and excel file, respectively</a>
+<a href="#image-tiler">-	Feed the ‘Images’ folder into the ‘Image Tiler’ Python Scripts, and the ‘Data Analysis’ folder into the ‘Save CSVs’ VBScript to produce the tiled images in PowerPoint, and CSVs for the Jupyter Notebook, respectively</a>
+<a href="#importing-the-data-and-creating-new-experiments">-	Create new Experiment objects and/or Batch objects using the new CSVs and execute the subsequent code blocks to produce figures and analyse data</a>
+<a href="#imagej-visualisation">-	Using the 3D Object stacks within the ‘Image Analysis’ folder, or any other image stacks, create 3D renders and animations using 3D Viewer, 3D Script, and the provided example codes, to enhance visualisation and add evidence to data analysis</a>
+## [Saving Confocal Images]
 For ImageJ macros to work properly, it’s important that each image title is formatted correctly. The formatting should be ‘AnimalID_Hemisphere_BrainRegion’ as seen in Figure 1. It’s easiest to do this while taking your confocal images to prevent having to change all the names again later on. The hemisphere must be either ‘LH’ or ‘RH’ and the brain region can be anything. If there are 2 images from the same animal, hemisphere, and brain region, add a number at the end of the image name. An example name would be ‘mouse3_LH_SCN2’.
 ![Figure 1](https://github.com/user-attachments/assets/66948c39-4864-4350-b0de-32c5ae5dc395)
 ## Installing Plugins
