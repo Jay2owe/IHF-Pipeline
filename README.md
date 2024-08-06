@@ -1,5 +1,5 @@
 # IHF-Pipeline
-# Overview
+## Overview
 The pipeline leverages ImageJ and Python to streamline the process from image acquisition to data analysis for immunofluorescence. The pipeline facilitates the semi-automated production of high-quality figures and 3D renders, as well as extraction of 3D and spatial data, which can also be analysed using the Jupyter notebook also part of the pipeline.
 Quick Step-by-step breakdown
 -	Save all of your Confocal Images in the correct format (AnimalID_Hemisphere_BrainRegion)
