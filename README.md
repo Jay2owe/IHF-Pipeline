@@ -2,7 +2,7 @@
 ## Overview
 The pipeline leverages ImageJ and Python to streamline the process from image acquisition to data analysis for immunofluorescence. The pipeline facilitates the semi-automated production of high-quality figures and 3D renders, as well as extraction of 3D and spatial data, which can also be analysed using the Jupyter notebook also part of the pipeline.
 ## Quick Step-by-step breakdown
-<a href="#saving-confocal-images" style="color: black; text-decoration: none;text-decoration-style: dotted;">-	Save all of your Confocal Images in the correct format (AnimalID_Hemisphere_BrainRegion)</a>\
+<a href="#saving-confocal-images" style="color: black; text-decoration: none;">- Save all of your Confocal Images in the correct format (AnimalID_Hemisphere_BrainRegion)</a>\
 <a href="#folder-set-up">-	Keep your .lif in a separate folder on it’s own</a>\
 <a href="#installing-plugins">-	Install all the required ImageJ Plugins (3D Object Counter, ImageJ 3D Suite, 3D Viewer, 3D Script)</a>\
 <a href="#create-.bin-folder">-	Use the ‘Create .bin Folder’ ImageJ Macro. Make sure you have an idea of the threshold and filters needed for each channel</a>\
