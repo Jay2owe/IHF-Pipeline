@@ -73,9 +73,14 @@ Each subsequent coding cell following the creation of new experiments will produ
 # Extras
 Other ImageJ Macros
 Orientate Left/Right Hemisphere – These macros apply the appropriate transformations so that the image stack is represented as a left hemisphere
+
 Max/Average Projection – These macros will create a maximum or average projection of an image stack
+
 Close All – Closes all windows that can be closed with a macro.
+
 Split Channels – Splits all the channels of an image stack
+
 Add labels – Adds labels and scalebars to the selected image with sizes based on user input
+
 Create Inset Zooms – Takes a series of ROIs of a particular image and saves a cropped image of each ROI for each image within an image stack. The user will also be prompted whether they want to add scalebars or labels
 	
