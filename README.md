@@ -1,5 +1,5 @@
 # IHF-Pipeline
-Overview
+# Overview
 The pipeline leverages ImageJ and Python to streamline the process from image acquisition to data analysis for immunofluorescence. The pipeline facilitates the semi-automated production of high-quality figures and 3D renders, as well as extraction of 3D and spatial data, which can also be analysed using the Jupyter notebook also part of the pipeline.
 Quick Step-by-step breakdown
 -	Save all of your Confocal Images in the correct format (AnimalID_Hemisphere_BrainRegion)
@@ -11,15 +11,13 @@ Quick Step-by-step breakdown
 -	Feed the ‘Images’ folder into the ‘Image Tiler’ Python Scripts, and the ‘Data Analysis’ folder into the ‘Save CSVs’ VBScript to produce the tiled images in PowerPoint, and CSVs for the Jupyter Notebook, respectively
 -	Create new Experiment objects and/or Batch objects using the new CSVs and execute the subsequent code blocks to produce figures and analyse data
 -	Using the 3D Object stacks within the ‘Image Analysis’ folder, or any other image stacks, create 3D renders and animations using 3D Viewer, 3D Script, and the provided example codes, to enhance visualisation and add evidence to data analysis
-Saving Confocal Images
+# Saving Confocal Images
 For ImageJ macros to work properly, it’s important that each image title is formatted correctly. The formatting should be ‘AnimalID_Hemisphere_BrainRegion’ as seen in Figure 1. It’s easiest to do this while taking your confocal images to prevent having to change all the names again later on. The hemisphere must be either ‘LH’ or ‘RH’ and the brain region can be anything. If there are 2 images from the same animal, hemisphere, and brain region, add a number at the end of the image name. An example name would be ‘mouse3_LH_SCN2’.
-
-![image](https://github.com/user-attachments/assets/4ee39957-7929-49e5-adc2-29cc993815a5)
-
-Installing Plugins
+![Figure 1](https://github.com/user-attachments/assets/66948c39-4864-4350-b0de-32c5ae5dc395)
+# Installing Plugins
 The ImageJ macros rely on several plugins. The steps needed to install all the plugins required for the pipeline are described in Figure 2. 
 
-Initial Steps in ImageJ
+# Initial Steps in ImageJ
 A few simple setup steps are required prior to use of ImageJ macros to provide the macros with the information they need to run smoothly and improve the flow of the pipeline overall.
 Folder Set up
 With your new .lif file from the confocal, create a new folder with just the file inside (see Figure 3). 
